@@ -8,5 +8,35 @@ const source=x=>x.ReportingArea||x.reportingArea||x.SiteName||x.siteName||null;
 const aq=x=>{for(const v of[x?.AQI,x?.aqi,x?.NowcastAQI,x?.nowcastAQI]){const n=Number(v);if(Number.isFinite(n))return n}return null};
 const cat=x=>{const c=x.Category??x.category;return typeof c==='object'?(c.Name??c.name??null):(c??x.CategoryName??x.categoryName??null)};
 function previous(){try{return JSON.parse(fs.readFileSync(file,'utf8'))}catch{return {locations:[]}}}
-async function one(l){const q=new URLSearchParams({format:'application/json',zipCode:l.zip,distance:'50',API_KEY:key});const url='https://www.airnowapi.org/aq/observation/current/zipCode/?'+q;const r=await fetch(url,{headers:{Accept:'application/json'}});if(!r.ok)throw new Error('HTTP '+r.status+': '+(await r.text()).slice(0,120));const all=await r.json();if(!Array.isArray(all))throw new Error('Unexpected AirNow response');const want=norm(l.preferredReportingArea),matches=want?all.filter(x=>{const a=norm(source(x));return a&&(a===want||a.includes(want)||want.includes(a))}):all,item=[...(matches.length?matches:all)].sort((a,b)=>(aq(b)??-1)-(aq(a)??-1))[0];if(!item)throw new Error('No current observation returned');return {...l,aqi:aq(item),category:cat(item)||'Observation available',pollutant:item.ParameterName||item.parameterName||null,reportingArea:source(item)||l.preferredReportingArea,lastUpdated:new Date().toISOString(),error:want&&!matches.length?'Preferred source not found; nearest ZIP result shown':null}}
+async function one(l){const q=new URLSearchParams({format:'application/json',zipCode:l.zip,distance:'50',API_KEY:key});const url='https://www.airnowapi.org/aq/observation/current/zipCode/?'+q;const r = await fetch(url, {
+  headers: {
+    Accept: 'application/json'
+  }
+});
+
+const rawText = await r.text();
+
+console.log('HTTP Status:', r.status);
+console.log(
+  'Content-Type:',
+  r.headers.get('content-type')
+);
+
+if (!r.ok) {
+  throw new Error(
+    `HTTP ${r.status}: ${rawText.slice(0,500)}`
+  );
+}
+
+let all;
+
+try {
+  all = JSON.parse(rawText);
+}
+catch {
+
+  throw new Error(
+    `AirNow returned HTML instead of JSON: ${rawText.slice(0,500)}`
+  );
+};if(!Array.isArray(all))throw new Error('Unexpected AirNow response');const want=norm(l.preferredReportingArea),matches=want?all.filter(x=>{const a=norm(source(x));return a&&(a===want||a.includes(want)||want.includes(a))}):all,item=[...(matches.length?matches:all)].sort((a,b)=>(aq(b)??-1)-(aq(a)??-1))[0];if(!item)throw new Error('No current observation returned');return {...l,aqi:aq(item),category:cat(item)||'Observation available',pollutant:item.ParameterName||item.parameterName||null,reportingArea:source(item)||l.preferredReportingArea,lastUpdated:new Date().toISOString(),error:want&&!matches.length?'Preferred source not found; nearest ZIP result shown':null}}
 (async()=>{const old=previous(),out=[];for(const l of locations){try{out.push(await one(l))}catch(e){const prior=old.locations?.find(x=>x.division===l.division&&x.city===l.city&&x.state===l.state&&String(x.zip)===l.zip);out.push(prior?{...prior,...l,error:'Update failed; retained previous cache: '+e.message}:{...l,aqi:null,category:'Unavailable',pollutant:null,reportingArea:l.preferredReportingArea,lastUpdated:null,error:e.message})}}const cache={schemaVersion:2,lastUpdated:new Date().toISOString(),reporting:out.filter(x=>x.aqi!=null).length,elevated:out.filter(x=>x.aqi>100).length,status:'Workflow completed',locations:out};fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,JSON.stringify(cache,null,2)+'\n');console.log(`Cache written: ${cache.reporting}/${out.length} reporting`);if(!cache.reporting)console.warn('No live observations returned; diagnostic cache was still written.')})().catch(e=>{console.error(e);process.exit(1)});
