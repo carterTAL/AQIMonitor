@@ -300,7 +300,10 @@ async function fetchLocation(location) {
     headers: { Accept: "application/json" },
     redirect: "follow"
   });
-
+  
+console.log("Final URL:", response.url);
+console.log("Status:", response.status);
+console.log("Content-Type:", response.headers.get("content-type"));
   const rawText = await response.text();
   const contentType = response.headers.get("content-type") || "unknown";
 
