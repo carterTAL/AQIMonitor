@@ -5,7 +5,7 @@ const path = require("node:path");
 
 const API_KEY = process.env.AIRNOW_API_KEY;
 const CACHE_FILE = path.join(process.cwd(), "cache", "aqi-cache.json");
-const API_ENDPOINT = "https://www.airnowapi.org/aq/observation/zipCode/current/";
+const API_ENDPOINT = "https://www.airnowapi.org/aq/observation/current/zipCode/";
 
 if (!API_KEY) {
   console.error("AIRNOW_API_KEY is missing or empty.");
@@ -284,7 +284,7 @@ function cleanPreview(text) {
   return String(text || "")
     .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 2000);
+    .slice(0, 300);
 }
 
 async function fetchLocation(location) {
@@ -300,10 +300,7 @@ async function fetchLocation(location) {
     headers: { Accept: "application/json" },
     redirect: "follow"
   });
-  
-console.log("Final URL:", response.url);
-console.log("Status:", response.status);
-console.log("Content-Type:", response.headers.get("content-type"));
+
   const rawText = await response.text();
   const contentType = response.headers.get("content-type") || "unknown";
 
