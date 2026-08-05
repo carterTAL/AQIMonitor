@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "lastUpdated": null,
   "reporting": 0,
   "elevated": 0,
-  "status": "Waiting for first successful GitHub Actions run",
+  "status": "Waiting for first workflow run",
   "locations": [
     {
       "division": "Badger Building Center",
@@ -15,7 +15,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Sandpoint Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -29,7 +28,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Coeur d'Alene Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -43,7 +41,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -57,7 +54,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -71,7 +67,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -85,7 +80,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -99,7 +93,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Nez Perce Reservation",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -113,7 +106,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Grangeville Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -127,7 +119,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -141,7 +132,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Lewiston Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -155,7 +145,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -169,7 +158,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Bozeman EBAM Monitor",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -183,7 +171,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -197,7 +184,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -211,7 +197,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -225,7 +210,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -239,7 +223,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Leavenworth Reporting Area",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -253,7 +236,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -267,7 +249,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -281,7 +262,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -295,7 +275,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -309,7 +288,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Republic Monitor",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -323,7 +301,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": "Tonasket Monitor",
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -337,7 +314,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -351,7 +327,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -365,7 +340,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -379,7 +353,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -393,7 +366,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -407,7 +379,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     },
@@ -421,7 +392,6 @@
       "category": "Not loaded",
       "pollutant": null,
       "reportingArea": null,
-      "observationDate": null,
       "lastUpdated": null,
       "error": null
     }
