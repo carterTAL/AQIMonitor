@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-05T22:29:02.317Z",
-  "reporting": 0,
-  "elevated": 0,
+  "lastUpdated": "2026-08-05T22:33:58.418Z",
+  "reporting": 20,
+  "elevated": 12,
   "status": "Workflow completed",
   "locations": [
     {
@@ -16,7 +16,7 @@
       "pollutant": null,
       "reportingArea": "Sandpoint Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Badger Building Center",
@@ -29,7 +29,7 @@
       "pollutant": null,
       "reportingArea": "Coeur d'Alene Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Badger Building Center",
@@ -37,12 +37,13 @@
       "state": "MT",
       "zip": "59901",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 77,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Flathead Valley",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:54.120Z",
+      "error": null
     },
     {
       "division": "Badger Building Center",
@@ -50,12 +51,13 @@
       "state": "ID",
       "zip": "83805",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 91,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Kootenai Tribe",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:54.308Z",
+      "error": null
     },
     {
       "division": "Elma Building Center",
@@ -63,12 +65,13 @@
       "state": "WA",
       "zip": "98541",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 67,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Aberdeen",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:54.457Z",
+      "error": null
     },
     {
       "division": "Beaverhead Building Center",
@@ -76,12 +79,13 @@
       "state": "MT",
       "zip": "59725",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 52,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Dillon",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:54.610Z",
+      "error": null
     },
     {
       "division": "Best Built Builders Supply",
@@ -94,7 +98,7 @@
       "pollutant": null,
       "reportingArea": "Nez Perce Reservation",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Best Built Builders Supply",
@@ -107,7 +111,7 @@
       "pollutant": null,
       "reportingArea": "Grangeville Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Best Built Builders Supply",
@@ -115,12 +119,13 @@
       "state": "ID",
       "zip": "83536",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 131,
+      "category": "Unhealthy for Sensitive Groups",
+      "pollutant": "PM2.5",
+      "reportingArea": "Kamiah - Nez Perce Reservation",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:55.147Z",
+      "error": null
     },
     {
       "division": "Best Built Builders Supply",
@@ -133,7 +138,7 @@
       "pollutant": null,
       "reportingArea": "Lewiston Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Browne's Home Center",
@@ -141,12 +146,13 @@
       "state": "WA",
       "zip": "98250",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 89,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Anacortes",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:55.504Z",
+      "error": null
     },
     {
       "division": "Ennis Building Center",
@@ -159,7 +165,7 @@
       "pollutant": null,
       "reportingArea": "Bozeman EBAM Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Gerretsen Building Supply",
@@ -167,12 +173,13 @@
       "state": "OR",
       "zip": "97470",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 94,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Roseburg",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:55.838Z",
+      "error": null
     },
     {
       "division": "Harbor Rental and Saw",
@@ -180,12 +187,13 @@
       "state": "WA",
       "zip": "98250",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 89,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Anacortes",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:56.006Z",
+      "error": null
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -198,7 +206,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -211,7 +219,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Marson and Marson Lumber",
@@ -224,7 +232,7 @@
       "pollutant": null,
       "reportingArea": "Leavenworth Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Marson and Marson Lumber",
@@ -232,12 +240,13 @@
       "state": "WA",
       "zip": "98801",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 592,
+      "category": "Hazardous",
+      "pollutant": "PM2.5",
+      "reportingArea": "Wenatchee",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:56.487Z",
+      "error": null
     },
     {
       "division": "Marson and Marson Lumber",
@@ -245,12 +254,13 @@
       "state": "WA",
       "zip": "98922",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 165,
+      "category": "Unhealthy",
+      "pollutant": "PM2.5",
+      "reportingArea": "Ellensburg",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:56.578Z",
+      "error": null
     },
     {
       "division": "Marson and Marson Lumber",
@@ -258,12 +268,13 @@
       "state": "WA",
       "zip": "98823",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 195,
+      "category": "Unhealthy",
+      "pollutant": "PM2.5",
+      "reportingArea": "Quincy",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:56.816Z",
+      "error": null
     },
     {
       "division": "Midway Building Supply",
@@ -271,12 +282,13 @@
       "state": "WA",
       "zip": "98855",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 453,
+      "category": "Hazardous",
+      "pollutant": "PM2.5",
+      "reportingArea": "Omak",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:56.948Z",
+      "error": null
     },
     {
       "division": "Midway Building Supply",
@@ -289,7 +301,7 @@
       "pollutant": null,
       "reportingArea": "Republic Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "error": "Update failed; retained previous cache: No current observation returned."
     },
     {
       "division": "Midway Building Supply",
@@ -297,12 +309,13 @@
       "state": "WA",
       "zip": "98844",
       "preferredReportingArea": "Tonasket Monitor",
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": "Tonasket Monitor",
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 453,
+      "category": "Hazardous",
+      "pollutant": "PM2.5",
+      "reportingArea": "Omak",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:57.144Z",
+      "error": "Preferred source not found; nearest ZIP result shown"
     },
     {
       "division": "Miller's Home Center",
@@ -310,12 +323,13 @@
       "state": "OR",
       "zip": "97814",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 139,
+      "category": "Unhealthy for Sensitive Groups",
+      "pollutant": "PM2.5",
+      "reportingArea": "Baker City",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:57.262Z",
+      "error": null
     },
     {
       "division": "Miller's Home Center",
@@ -323,12 +337,13 @@
       "state": "OR",
       "zip": "97850",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 140,
+      "category": "Unhealthy for Sensitive Groups",
+      "pollutant": "PM2.5",
+      "reportingArea": "La Grande",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:57.440Z",
+      "error": null
     },
     {
       "division": "Mount Vernon Building Center",
@@ -336,12 +351,13 @@
       "state": "WA",
       "zip": "98273",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 76,
+      "category": "Moderate",
+      "pollutant": "PM2.5",
+      "reportingArea": "Mount Vernon",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:57.669Z",
+      "error": null
     },
     {
       "division": "TAL Support Center",
@@ -349,12 +365,13 @@
       "state": "WA",
       "zip": "98684",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 151,
+      "category": "Unhealthy",
+      "pollutant": "PM2.5",
+      "reportingArea": "Vancouver",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:57.903Z",
+      "error": null
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -362,12 +379,13 @@
       "state": "OR",
       "zip": "97031",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 237,
+      "category": "Very Unhealthy",
+      "pollutant": "PM2.5",
+      "reportingArea": "Hood River",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:58.123Z",
+      "error": null
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -375,12 +393,13 @@
       "state": "OR",
       "zip": "97058",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 169,
+      "category": "Unhealthy",
+      "pollutant": "PM2.5",
+      "reportingArea": "The Dalles",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:58.272Z",
+      "error": null
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -388,12 +407,13 @@
       "state": "OR",
       "zip": "97801",
       "preferredReportingArea": null,
-      "aqi": null,
-      "category": "Not loaded",
-      "pollutant": null,
-      "reportingArea": null,
-      "lastUpdated": null,
-      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\"> <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/blueprint/ie.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\"><![endif]--> <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css\" type=\"text/css\"> <link rel=\"stylesheet\" href=\"/css/default.css?v=3.0.2\" type=\"text/css\"> <!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8FZ16JDJ5Y\"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-8FZ16JDJ5Y'); </script> </head> <body> <div id=\"header\"> <div class=\"left airNowLogo\"> <img src=\"/img/airNowLogo.png\" alt=\"AirNow\" /> </div> <div class=\"right\" style=\"margin: 10px 40px;\"> <form class=\"left\"> <a class=\"an-button an-btn-primary\" href=\"/login\">Login</a> </form> </div> <div class=\"clear\"></div> </div> <div id=\"navContainer\"> <ul id=\"navigation\"> <li class=\"first selected \"><a href=\"/\" title=\"AirNow Developers - Home\">Home</a></li> <li ><a href=\"/webservices\" title=\"\">Web Services</a></li> <li ><a href=\"/feeds\" title=\"\">Data Feeds</a></li> <li ><a href=\"/files\" title=\"\">File Products</a></li> <li ><a href=\"/faq\" title=\"AirNow Developers - FAQ\">FAQ</a></li> <li ><a href=\"/aq101\" title=\"\">Air Quality 101</a></li> <li ><a href=\"/usagestats\" title=\"\">Analytics</a></li> </ul> </div> <div class=\"pageTitleContainer\"> <h1> AirNow API </h1> </div> <div id=\"leftColumn\" class=\"left span-5\"> <div> </div> </div> <div id=\"rightColumn\" class=\"left span-18\"> <div class=\"span-24\"> <div> The Air"
+      "aqi": 187,
+      "category": "Unhealthy",
+      "pollutant": "PM2.5",
+      "reportingArea": "Pendleton",
+      "observationDate": "2026-08-05",
+      "lastUpdated": "2026-08-05T22:33:58.418Z",
+      "error": null
     }
   ]
 }
