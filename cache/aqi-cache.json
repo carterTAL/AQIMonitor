@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": null,
+  "lastUpdated": "2026-08-05T21:27:14.763Z",
   "reporting": 0,
   "elevated": 0,
-  "status": "Waiting for first workflow run",
+  "status": "Workflow completed",
   "locations": [
     {
       "division": "Badger Building Center",
@@ -16,7 +16,7 @@
       "pollutant": null,
       "reportingArea": "Sandpoint Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Badger Building Center",
@@ -29,7 +29,7 @@
       "pollutant": null,
       "reportingArea": "Coeur d'Alene Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Badger Building Center",
@@ -42,7 +42,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Badger Building Center",
@@ -55,7 +55,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Elma Building Center",
@@ -68,7 +68,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Beaverhead Building Center",
@@ -81,7 +81,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Best Built Builders Supply",
@@ -94,7 +94,7 @@
       "pollutant": null,
       "reportingArea": "Nez Perce Reservation",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Best Built Builders Supply",
@@ -107,7 +107,7 @@
       "pollutant": null,
       "reportingArea": "Grangeville Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Best Built Builders Supply",
@@ -120,7 +120,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Best Built Builders Supply",
@@ -133,7 +133,7 @@
       "pollutant": null,
       "reportingArea": "Lewiston Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Browne's Home Center",
@@ -146,7 +146,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Ennis Building Center",
@@ -159,7 +159,7 @@
       "pollutant": null,
       "reportingArea": "Bozeman EBAM Monitor",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Gerretsen Building Supply",
@@ -172,7 +172,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Harbor Rental and Saw",
@@ -185,7 +185,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -198,7 +198,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -211,7 +211,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -224,7 +224,7 @@
       "pollutant": null,
       "reportingArea": "Leavenworth Reporting Area",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -237,7 +237,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -250,7 +250,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -263,7 +263,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Midway Building Supply",
@@ -276,7 +276,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Midway Building Supply",
@@ -289,7 +289,7 @@
       "pollutant": null,
       "reportingArea": "Republic Monitor",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Midway Building Supply",
@@ -302,7 +302,7 @@
       "pollutant": null,
       "reportingArea": "Tonasket Monitor",
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Miller's Home Center",
@@ -315,7 +315,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Miller's Home Center",
@@ -328,7 +328,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Mount Vernon Building Center",
@@ -341,7 +341,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "TAL Support Center",
@@ -354,7 +354,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -367,7 +367,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -380,7 +380,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -393,7 +393,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": null
+      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
     }
   ]
 }
