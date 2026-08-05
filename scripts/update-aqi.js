@@ -8,12 +8,22 @@ const source=x=>x.ReportingArea||x.reportingArea||x.SiteName||x.siteName||null;
 const aq=x=>{for(const v of[x?.AQI,x?.aqi,x?.NowcastAQI,x?.nowcastAQI]){const n=Number(v);if(Number.isFinite(n))return n}return null};
 const cat=x=>{const c=x.Category??x.category;return typeof c==='object'?(c.Name??c.name??null):(c??x.CategoryName??x.categoryName??null)};
 function previous(){try{return JSON.parse(fs.readFileSync(file,'utf8'))}catch{return {locations:[]}}}
-async function one(l){const q=new URLSearchParams({format:'application/json',zipCode:l.zip,distance:'50',API_KEY:key});const url='https://www.airnowapi.org/aq/observation/current/zipCode/?'+q;const r = await fetch(url, {
+async function one(l){const q=new URLSearchParams({format:'application/json',zipCode:l.zip,distance:'50',API_KEY:key});const url='https://www.airnowapi.org/aq/observation/current/zipCode/?'+q;
+                      console.log('Request URL:', url);
+const r = await fetch(url, {
   headers: {
     Accept: 'application/json'
   }
 });
-
+console.log('Status:', r.status);
+2
+console.log(
+3
+'Content-Type:',
+4
+r.headers.get('content-type')
+5
+);
 const rawText = await r.text();
 
 console.log('HTTP Status:', r.status);
