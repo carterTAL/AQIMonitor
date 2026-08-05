@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-05T22:33:58.418Z",
+  "lastUpdated": "2026-08-05T23:00:40.975Z",
   "reporting": 20,
   "elevated": 12,
   "status": "Workflow completed",
@@ -42,7 +42,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Flathead Valley",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:54.120Z",
+      "lastUpdated": "2026-08-05T23:00:37.081Z",
       "error": null
     },
     {
@@ -56,7 +56,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Kootenai Tribe",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:54.308Z",
+      "lastUpdated": "2026-08-05T23:00:37.241Z",
       "error": null
     },
     {
@@ -70,7 +70,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Aberdeen",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:54.457Z",
+      "lastUpdated": "2026-08-05T23:00:37.350Z",
       "error": null
     },
     {
@@ -84,7 +84,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Dillon",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:54.610Z",
+      "lastUpdated": "2026-08-05T23:00:37.519Z",
       "error": null
     },
     {
@@ -124,7 +124,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Kamiah - Nez Perce Reservation",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:55.147Z",
+      "lastUpdated": "2026-08-05T23:00:37.985Z",
       "error": null
     },
     {
@@ -151,7 +151,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Anacortes",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:55.504Z",
+      "lastUpdated": "2026-08-05T23:00:38.277Z",
       "error": null
     },
     {
@@ -178,7 +178,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Roseburg",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:55.838Z",
+      "lastUpdated": "2026-08-05T23:00:38.493Z",
       "error": null
     },
     {
@@ -192,7 +192,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Anacortes",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:56.006Z",
+      "lastUpdated": "2026-08-05T23:00:38.588Z",
       "error": null
     },
     {
@@ -245,7 +245,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Wenatchee",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:56.487Z",
+      "lastUpdated": "2026-08-05T23:00:38.979Z",
       "error": null
     },
     {
@@ -259,7 +259,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Ellensburg",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:56.578Z",
+      "lastUpdated": "2026-08-05T23:00:39.107Z",
       "error": null
     },
     {
@@ -273,7 +273,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Quincy",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:56.816Z",
+      "lastUpdated": "2026-08-05T23:00:39.325Z",
       "error": null
     },
     {
@@ -287,7 +287,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Omak",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:56.948Z",
+      "lastUpdated": "2026-08-05T23:00:39.418Z",
       "error": null
     },
     {
@@ -314,7 +314,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Omak",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:57.144Z",
+      "lastUpdated": "2026-08-05T23:00:39.780Z",
       "error": "Preferred source not found; nearest ZIP result shown"
     },
     {
@@ -328,7 +328,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Baker City",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:57.262Z",
+      "lastUpdated": "2026-08-05T23:00:39.891Z",
       "error": null
     },
     {
@@ -342,7 +342,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "La Grande",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:57.440Z",
+      "lastUpdated": "2026-08-05T23:00:40.005Z",
       "error": null
     },
     {
@@ -356,7 +356,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Mount Vernon",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:57.669Z",
+      "lastUpdated": "2026-08-05T23:00:40.116Z",
       "error": null
     },
     {
@@ -370,7 +370,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Vancouver",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:57.903Z",
+      "lastUpdated": "2026-08-05T23:00:40.344Z",
       "error": null
     },
     {
@@ -384,7 +384,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Hood River",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:58.123Z",
+      "lastUpdated": "2026-08-05T23:00:40.626Z",
       "error": null
     },
     {
@@ -398,7 +398,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "The Dalles",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:58.272Z",
+      "lastUpdated": "2026-08-05T23:00:40.859Z",
       "error": null
     },
     {
@@ -412,7 +412,7 @@
       "pollutant": "PM2.5",
       "reportingArea": "Pendleton",
       "observationDate": "2026-08-05",
-      "lastUpdated": "2026-08-05T22:33:58.418Z",
+      "lastUpdated": "2026-08-05T23:00:40.975Z",
       "error": null
     }
   ]
