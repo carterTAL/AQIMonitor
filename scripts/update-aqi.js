@@ -284,7 +284,7 @@ function cleanPreview(text) {
   return String(text || "")
     .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 300);
+    .slice(0, 2000);
 }
 
 async function fetchLocation(location) {
