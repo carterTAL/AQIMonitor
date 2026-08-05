@@ -5,7 +5,7 @@ const path = require("node:path");
 
 const API_KEY = process.env.AIRNOW_API_KEY;
 const CACHE_FILE = path.join(process.cwd(), "cache", "aqi-cache.json");
-const API_ENDPOINT = "https://www.airnowapi.org/aq/observation/current/zipCode/";
+const API_ENDPOINT = "https://www.airnowapi.org/aq/observation/zipCode/current/";
 
 if (!API_KEY) {
   console.error("AIRNOW_API_KEY is missing or empty.");
