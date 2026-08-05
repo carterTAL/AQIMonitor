@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-05T21:27:14.763Z",
+  "lastUpdated": "2026-08-05T21:56:27.002Z",
   "reporting": 0,
   "elevated": 0,
   "status": "Workflow completed",
@@ -16,7 +16,7 @@
       "pollutant": null,
       "reportingArea": "Sandpoint Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Badger Building Center",
@@ -29,7 +29,7 @@
       "pollutant": null,
       "reportingArea": "Coeur d'Alene Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Badger Building Center",
@@ -42,7 +42,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Badger Building Center",
@@ -55,7 +55,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Elma Building Center",
@@ -68,7 +68,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Beaverhead Building Center",
@@ -81,7 +81,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Best Built Builders Supply",
@@ -94,7 +94,7 @@
       "pollutant": null,
       "reportingArea": "Nez Perce Reservation",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Best Built Builders Supply",
@@ -107,7 +107,7 @@
       "pollutant": null,
       "reportingArea": "Grangeville Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Best Built Builders Supply",
@@ -120,7 +120,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Best Built Builders Supply",
@@ -133,7 +133,7 @@
       "pollutant": null,
       "reportingArea": "Lewiston Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Browne's Home Center",
@@ -146,7 +146,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Ennis Building Center",
@@ -159,7 +159,7 @@
       "pollutant": null,
       "reportingArea": "Bozeman EBAM Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Gerretsen Building Supply",
@@ -172,7 +172,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Harbor Rental and Saw",
@@ -185,7 +185,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -198,7 +198,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -211,7 +211,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -224,7 +224,7 @@
       "pollutant": null,
       "reportingArea": "Leavenworth Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -237,7 +237,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -250,7 +250,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -263,7 +263,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Midway Building Supply",
@@ -276,7 +276,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Midway Building Supply",
@@ -289,7 +289,7 @@
       "pollutant": null,
       "reportingArea": "Republic Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Midway Building Supply",
@@ -302,7 +302,7 @@
       "pollutant": null,
       "reportingArea": "Tonasket Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Miller's Home Center",
@@ -315,7 +315,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Miller's Home Center",
@@ -328,7 +328,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Mount Vernon Building Center",
@@ -341,7 +341,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "TAL Support Center",
@@ -354,7 +354,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -367,7 +367,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -380,7 +380,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -393,7 +393,7 @@
       "pollutant": null,
       "reportingArea": null,
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: Unexpected token '<', \"    <!doctype \"... is not valid JSON"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON:     <!doctype html>\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\r\n    <head>\r\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> \r\n    <title>AirNow API Documentation</title>\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, projection\">\r\n    <link rel=\"stylesheet\" href=\"/css/lib/blueprint/print.css?v=3.0.2\" type=\"text/css\" media=\"print\">\r\n    <!--[if lt IE 8]><link rel=\"stylesheet\" href=\"/css/lib/"
     }
   ]
 }
