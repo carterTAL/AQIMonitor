@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-05T23:00:40.975Z",
+  "lastUpdated": "2026-08-05T23:07:43.026Z",
   "reporting": 20,
   "elevated": 12,
   "status": "Workflow completed",
@@ -16,7 +16,7 @@
       "pollutant": null,
       "reportingArea": "Sandpoint Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Badger Building Center",
@@ -29,7 +29,7 @@
       "pollutant": null,
       "reportingArea": "Coeur d'Alene Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Badger Building Center",
@@ -43,7 +43,7 @@
       "reportingArea": "Flathead Valley",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:37.081Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Badger Building Center",
@@ -57,7 +57,7 @@
       "reportingArea": "Kootenai Tribe",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:37.241Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Elma Building Center",
@@ -71,7 +71,7 @@
       "reportingArea": "Aberdeen",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:37.350Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Beaverhead Building Center",
@@ -85,7 +85,7 @@
       "reportingArea": "Dillon",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:37.519Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Best Built Builders Supply",
@@ -98,7 +98,7 @@
       "pollutant": null,
       "reportingArea": "Nez Perce Reservation",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Best Built Builders Supply",
@@ -111,7 +111,7 @@
       "pollutant": null,
       "reportingArea": "Grangeville Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Best Built Builders Supply",
@@ -125,7 +125,7 @@
       "reportingArea": "Kamiah - Nez Perce Reservation",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:37.985Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Best Built Builders Supply",
@@ -138,7 +138,7 @@
       "pollutant": null,
       "reportingArea": "Lewiston Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Browne's Home Center",
@@ -152,7 +152,7 @@
       "reportingArea": "Anacortes",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:38.277Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Ennis Building Center",
@@ -165,7 +165,7 @@
       "pollutant": null,
       "reportingArea": "Bozeman EBAM Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Gerretsen Building Supply",
@@ -179,7 +179,7 @@
       "reportingArea": "Roseburg",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:38.493Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Harbor Rental and Saw",
@@ -193,7 +193,7 @@
       "reportingArea": "Anacortes",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:38.588Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -206,7 +206,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Lake Chelan Building Supply",
@@ -219,7 +219,7 @@
       "pollutant": null,
       "reportingArea": "Chelan Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -232,7 +232,7 @@
       "pollutant": null,
       "reportingArea": "Leavenworth Reporting Area",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -246,7 +246,7 @@
       "reportingArea": "Wenatchee",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:38.979Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -260,7 +260,7 @@
       "reportingArea": "Ellensburg",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:39.107Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Marson and Marson Lumber",
@@ -274,7 +274,7 @@
       "reportingArea": "Quincy",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:39.325Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Midway Building Supply",
@@ -288,7 +288,7 @@
       "reportingArea": "Omak",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:39.418Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Midway Building Supply",
@@ -301,7 +301,7 @@
       "pollutant": null,
       "reportingArea": "Republic Monitor",
       "lastUpdated": null,
-      "error": "Update failed; retained previous cache: No current observation returned."
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Midway Building Supply",
@@ -315,7 +315,7 @@
       "reportingArea": "Omak",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:39.780Z",
-      "error": "Preferred source not found; nearest ZIP result shown"
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Miller's Home Center",
@@ -329,7 +329,7 @@
       "reportingArea": "Baker City",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:39.891Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Miller's Home Center",
@@ -343,7 +343,7 @@
       "reportingArea": "La Grande",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:40.005Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Mount Vernon Building Center",
@@ -357,7 +357,7 @@
       "reportingArea": "Mount Vernon",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:40.116Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "TAL Support Center",
@@ -371,7 +371,7 @@
       "reportingArea": "Vancouver",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:40.344Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -385,7 +385,7 @@
       "reportingArea": "Hood River",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:40.626Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -399,7 +399,7 @@
       "reportingArea": "The Dalles",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:40.859Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     },
     {
       "division": "Tum-A-Lum Lumber",
@@ -413,7 +413,7 @@
       "reportingArea": "Pendleton",
       "observationDate": "2026-08-05",
       "lastUpdated": "2026-08-05T23:00:40.975Z",
-      "error": null
+      "error": "Update failed; retained previous cache: AirNow returned HTML instead of JSON; status 200; content-type text/html;charset=ISO-8859-1; response: <!doctype html> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> <head> <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\"> <title>AirNow API Documentation</title> <link rel=\"stylesheet\" href=\"/css/lib/blueprint/screen.css?v=3.0.2\" type=\"text/css\" media=\"screen, pr"
     }
   ]
 }
