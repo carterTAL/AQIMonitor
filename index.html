@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AQI Monitoring Dashboard</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:20px;font:14px Arial,sans-serif;background:#f1f5f9;color:#0f172a}header,.controls,.summary{display:flex;gap:12px;flex-wrap:wrap;align-items:center}header{justify-content:space-between;margin-bottom:18px}h1{margin:0}.sub,.muted{color:#64748b}.controls input,.controls button,select,#search{padding:11px;border:1px solid #cbd5e1;border-radius:9px}button{background:#2563eb;color:#fff;border:0!important;font-weight:700;cursor:pointer}.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));margin-bottom:16px}.stat,.toolbar,.place{background:#fff;border-radius:12px;box-shadow:0 2px 8px #0f172a10}.stat{padding:16px}.stat b{display:block;font-size:28px;margin-top:5px}.toolbar{display:flex;gap:10px;padding:14px;margin-bottom:16px}#search{flex:1;min-width:220px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:15px}.place{overflow:hidden}.bar{height:8px}.inside{padding:16px}.top{display:flex;justify-content:space-between;gap:8px}.title{font-size:20px;font-weight:800}.badge{background:#dbeafe;color:#1e40af;border-radius:99px;padding:4px 8px;font-size:11px;font-weight:700;height:max-content}.aqi{font-size:48px;font-weight:800;margin:12px 0 3px}.category{font-weight:700}.rows{border-top:1px solid #e2e8f0;margin-top:14px;padding-top:10px}.row{display:flex;justify-content:space-between;gap:12px;margin:7px 0;font-size:13px}.row span:last-child{text-align:right;font-weight:700}.good{background:#00e400}.moderate{background:#ffff00}.sensitive{background:#ff7e00}.unhealthy{background:#ff0000}.very{background:#8f3f97}.hazardous{background:#7e0023}.unknown{background:#94a3b8}.notice{display:none;background:#fff7ed;color:#9a3412;border:1px solid #fdba74;padding:12px;border-radius:10px;margin-bottom:14px}footer{text-align:center;color:#64748b;margin-top:22px;font-size:12px}
+</style></head><body>
+<header><div><h1>Multi-Location AQI Dashboard</h1><div class="sub">Live AirNow monitoring across ID, MT, OR, and WA</div></div><div class="controls"><input id="apiKey" type="password" placeholder="AirNow API key"><button id="refresh" type="button">Refresh All</button></div></header>
+<div id="notice" class="notice"></div>
+<section class="summary"><div class="stat">Locations<b id="total">29</b></div><div class="stat">Reporting<b id="reporting">0</b></div><div class="stat">AQI above 100<b id="elevated">0</b></div><div class="stat">Last updated<div id="updated" class="muted" style="margin-top:10px">Never</div></div></section>
+<section class="toolbar"><input id="search" placeholder="Search city, state, or ZIP"><select id="state"><option value="ALL">All states</option><option>ID</option><option>MT</option><option>OR</option><option>WA</option></select><select id="sort"><option value="worst">Worst AQI first</option><option value="best">Best AQI first</option><option value="name">City name</option></select></section>
+<main id="grid" class="grid"></main><footer>Data source: U.S. EPA AirNow current observations. Standalone file: no frames, modules, or local-file references are used. Display headers retain the requested branch locations while cards identify the selected live reporting area or monitor.</footer>
+<script>
+const locations=[
+['Sagle','ID','83860','Sandpoint Reporting Area'],['Post Falls','ID','83854',"Coeur d'Alene Reporting Area"],['Kalispell','MT','59901'],['Bonners Ferry','ID','83805'],['Elma','WA','98541'],['Dillon','MT','59725'],['Orofino','ID','83544','Nez Perce Reservation'],['Grangeville','ID','83530','Grangeville Reporting Area'],['Kamiah','ID','83536'],['Lewiston','ID','83501','Lewiston Reporting Area'],['Friday Harbor','WA','98250'],['Ennis','MT','59729','Bozeman EBAM Monitor'],['Roseburg','OR','97470'],['Chelan','WA','98816','Chelan Reporting Area'],['Manson','WA','98831','Chelan Reporting Area'],['Leavenworth','WA','98826','Leavenworth Reporting Area'],['Wenatchee','WA','98801'],['Cle Elum','WA','98922'],['Ephrata','WA','98823'],['Tonasket','WA','98855'],['Republic','WA','99166','Republic Monitor'],['Oroville','WA','98844','Tonasket Monitor'],['Baker City','OR','97814'],['La Grande','OR','97850'],['Mount Vernon','WA','98273'],['Vancouver','WA','98684'],['Hood River','OR','97031'],['The Dalles','OR','97058'],['Pendleton','OR','97801']
+].map(([city,state,zip,preferredReportingArea])=>({city,state,zip,preferredReportingArea,aqi:null,category:'Not loaded',pollutant:'—',reportingArea:'—'}));
+let readings=[...locations];const $=id=>document.getElementById(id);
+const field=(x,...names)=>{for(const n of names)if(x?.[n]!=null&&x[n]!=="")return x[n];return null};
+const norm=x=>String(x||'').toLowerCase().replace(/reporting area|monitor/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const aqiOf=x=>{for(const v of [x?.nowcastAQI,x?.NowcastAQI,x?.AQI,x?.aqi]){const n=Number(v);if(Number.isFinite(n))return n}return null};
+const listOf=x=>Array.isArray(x)?x:Array.isArray(x?.data)?x.data:Array.isArray(x?.results)?x.results:[];
+function color(a){return a==null?'unknown':a<=50?'good':a<=100?'moderate':a<=150?'sensitive':a<=200?'unhealthy':a<=300?'very':'hazardous'}
+async function getAQI(loc,key){
+ const params=new URLSearchParams({format:'application/json',zipCode:loc.zip,distance:'50',API_KEY:key});
+ const response=await fetch(`https://www.airnowapi.org/aq/observation/current/ziplatlong/?${params}`);
+ if(!response.ok){const detail=await response.text();throw new Error(`HTTP ${response.status}${detail?`: ${detail.slice(0,120)}`:''}`)}const data=await response.json();const all=listOf(data);
+ const preferred=norm(loc.preferredReportingArea);const matches=preferred?all.filter(x=>{const actual=norm(field(x,'reportingArea','ReportingArea','reportingAreaName','ReportingAreaName','siteName','SiteName'));return actual===preferred||actual.includes(preferred)||preferred.includes(actual)}):all;
+ const candidates=matches.length?matches:all;const item=[...candidates].sort((a,b)=>(aqiOf(b)??-1)-(aqiOf(a)??-1))[0];
+ if(!item)return{...loc,error:'No current observation returned',category:'Unavailable'};
+ const categoryObject=field(item,'category','Category');const category=categoryObject&&typeof categoryObject==='object'?(categoryObject?.name||categoryObject?.Name||null):categoryObject;
+ return{...loc,aqi:aqiOf(item),category:category||field(item,'categoryName','CategoryName')||'Observation available',pollutant:field(item,'parameterName','ParameterName','pollutant','Pollutant')||'—',reportingArea:field(item,'reportingArea','ReportingArea','reportingAreaName','ReportingAreaName','siteName','SiteName')||loc.preferredReportingArea||'—',error:matches.length||!preferred?null:`Preferred source not found; nearest ZIP result shown`};
+}
+function render(){let q=$('search').value.toLowerCase().trim(),st=$('state').value,sort=$('sort').value;let data=readings.filter(x=>(st==='ALL'||x.state===st)&&(!q||`${x.city} ${x.state} ${x.zip}`.toLowerCase().includes(q)));data.sort((a,b)=>sort==='name'?a.city.localeCompare(b.city):sort==='best'?(a.aqi??9999)-(b.aqi??9999):(b.aqi??-1)-(a.aqi??-1));$('grid').innerHTML=data.map(x=>`<article class="place"><div class="bar ${color(x.aqi)}"></div><div class="inside"><div class="top"><div><div class="title">${x.city}, ${x.state}</div><div class="muted">ZIP ${x.zip}</div></div><span class="badge">Live observation</span></div><div class="aqi">${x.aqi??'—'}</div><div class="category">${x.category||'Unavailable'}</div><div class="rows"><div class="row"><span>Pollutant</span><span>${x.pollutant||'—'}</span></div><div class="row"><span>Reporting area / monitor</span><span>${x.reportingArea||x.preferredReportingArea||'—'}</span></div>${x.error?`<div class="muted">${x.error}</div>`:''}</div></div></article>`).join('')||'<p>No locations match the filters.</p>'}
+async function refresh(){const key=$('apiKey').value.trim();if(!key){$('notice').textContent='Enter an AirNow API key.';$('notice').style.display='block';return}$('notice').style.display='none';$('refresh').disabled=true;$('refresh').textContent='Updating...';const settled=await Promise.allSettled(locations.map(x=>getAQI(x,key)));readings=settled.map((r,i)=>r.status==='fulfilled'?r.value:{...locations[i],category:'Unavailable',error:r.reason?.message||'Request failed'});$('reporting').textContent=readings.filter(x=>x.aqi!=null).length;$('elevated').textContent=readings.filter(x=>x.aqi>100).length;$('updated').textContent=new Date().toLocaleString();$('refresh').disabled=false;$('refresh').textContent='Refresh All';render()}
+$('refresh').onclick=refresh;$('search').oninput=render;$('state').onchange=render;$('sort').onchange=render;// Auto-fill AirNow API key
+document.getElementById("apiKey").value =
+    "A29287E7-0FE7-473C-87DA-C15A1AE3BEC5";
+
+// Save key locally for future visits
+localStorage.setItem(
+    "airNowApiKey",
+    document.getElementById("apiKey").value
+);
+// Load any saved key first
+const savedKey = localStorage.getItem("airNowApiKey");
+
+if (savedKey) {
+    document.getElementById("apiKey").value = savedKey;
+}
+
+render();
+
+// Automatically load AQI data on page open
+if (document.getElementById("apiKey").value.trim()) {
+    refresh();
+}
+``;setInterval(()=>{if($('apiKey').value.trim())refresh()},900000);
+</script></body></html>
