@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TAL Air Quality Monitor</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --panel-2: #273449;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --border: #334155;
+    --accent: #38bdf8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.4;
+  }
+  header {
+    padding: 20px 24px 14px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #12203b, #0f172a);
+  }
+  header h1 { margin: 0 0 4px; font-size: 1.5rem; }
+  header p { margin: 0; color: var(--muted); font-size: 0.85rem; }
+  .wrap { padding: 18px 24px 60px; max-width: 1200px; margin: 0 auto; }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .controls input, .controls select {
+    background: var(--panel);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-size: 0.9rem;
+    outline: none;
+  }
+  .controls input:focus, .controls select:focus { border-color: var(--accent); }
+  .controls input[type="search"] { flex: 1 1 240px; min-width: 200px; }
+  .meta {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-align: right;
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  thead th {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--border);
+    color: var(--muted);
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+  }
+  thead th:hover { color: var(--text); }
+  thead th .arrow { color: var(--accent); font-size: 0.75rem; }
+  tbody td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  tbody tr:hover { background: var(--panel-2); }
+
+  .aqi-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    color: #111;
+  }
+  .cat { font-size: 0.82rem; color: var(--muted); }
+  .backup-tag {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 0.68rem;
+    color: #fbbf24;
+    border: 1px solid #92700f;
+    border-radius: 5px;
+    padding: 1px 5px;
+    vertical-align: middle;
+  }
+  .nodata { color: #f87171; font-weight: 600; }
+  .updated-cell { color: var(--muted); font-size: 0.8rem; white-space: nowrap; }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 20px;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .error-banner {
+    background: #7f1d1d; color: #fecaca; padding: 12px 16px;
+    border-radius: 8px; margin-bottom: 16px; display: none;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🌲 TAL Air Quality Monitor</h1>
+  <p>Live AQI (AirNow.gov current observations) across all divisions &middot; refreshed hourly</p>
+</header>
+
+<div class="wrap">
+  <div id="errorBanner" class="error-banner"></div>
+
+  <div class="controls">
+    <input type="search" id="search" placeholder="Search city, division, or reporting area…" />
+    <select id="stateFilter"><option value="">All states</option></select>
+    <select id="divisionFilter"><option value="">All divisions</option></select>
+    <div class="meta" id="meta">Loading…</div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-key="division">Division <span class="arrow"></span></th>
+        <th data-key="city">City <span class="arrow"></span></th>
+        <th data-key="state">State <span class="arrow"></span></th>
+        <th data-key="aqi">AQI <span class="arrow"></span></th>
+        <th data-key="category">Category <span class="arrow"></span></th>
+        <th data-key="parameter">Pollutant <span class="arrow"></span></th>
+        <th data-key="reportingArea">Reporting Area <span class="arrow"></span></th>
+        <th data-key="observed">Observed <span class="arrow"></span></th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <div class="legend">
+    <span><i class="dot" style="background:#00e400"></i> Good (0–50)</span>
+    <span><i class="dot" style="background:#ffff00"></i> Moderate (51–100)</span>
+    <span><i class="dot" style="background:#ff7e00"></i> Unhealthy for Sensitive (101–150)</span>
+    <span><i class="dot" style="background:#ff0000"></i> Unhealthy (151–200)</span>
+    <span><i class="dot" style="background:#8f3f97"></i> Very Unhealthy (201–300)</span>
+    <span><i class="dot" style="background:#7e0023"></i> Hazardous (301+)</span>
+  </div>
+</div>
+
+<script>
+const CACHE_URL = "data/aqi-cache.json";
+let DATA = [];
+let sortKey = "aqi";
+let sortDir = -1; // -1 desc, 1 asc
+
+function aqiColor(aqi) {
+  if (aqi == null) return "#475569";
+  if (aqi <= 50)  return "#00e400";
+  if (aqi <= 100) return "#ffff00";
+  if (aqi <= 150) return "#ff7e00";
+  if (aqi <= 200) return "#ff0000";
+  if (aqi <= 300) return "#8f3f97";
+  return "#7e0023";
+}
+
+function observedString(r) {
+  if (r.status !== "ok" || !r.observedDate) return "—";
+  const h = (typeof r.observedHour === "number")
+    ? String(r.observedHour).padStart(2, "0") + ":00"
+    : "";
+  return `${r.observedDate} ${h} ${r.observedTz || ""}`.trim();
+}
+
+function populateFilters() {
+  const states = [...new Set(DATA.map(d => d.state))].sort();
+  const divisions = [...new Set(DATA.map(d => d.division))].sort();
+  const sSel = document.getElementById("stateFilter");
+  const dSel = document.getElementById("divisionFilter");
+  states.forEach(s => sSel.insertAdjacentHTML("beforeend", `<option value="${s}">${s}</option>`));
+  divisions.forEach(d => dSel.insertAdjacentHTML("beforeend", `<option value="${d}">${d}</option>`));
+}
+
+function currentRows() {
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const st = document.getElementById("stateFilter").value;
+  const dv = document.getElementById("divisionFilter").value;
+
+  let rows = DATA.filter(r => {
+    if (st && r.state !== st) return false;
+    if (dv && r.division !== dv) return false;
+    if (q) {
+      const hay = `${r.division} ${r.city} ${r.state} ${r.reportingArea || ""} ${r.category || ""}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  rows.sort((a, b) => {
+    let av, bv;
+    if (sortKey === "observed") { av = observedString(a); bv = observedString(b); }
+    else { av = a[sortKey]; bv = b[sortKey]; }
+    if (av == null) av = sortDir === 1 ? Infinity : -Infinity;
+    if (bv == null) bv = sortDir === 1 ? Infinity : -Infinity;
+    if (typeof av === "string") return av.localeCompare(bv) * sortDir;
+    return (av - bv) * sortDir;
+  });
+  return rows;
+}
+
+function render() {
+  const rows = currentRows();
+  const tbody = document.getElementById("tbody");
+  tbody.innerHTML = rows.map(r => {
+    const color = aqiColor(r.aqi);
+    const aqiCell = (r.status === "ok")
+      ? `<span class="aqi-badge" style="background:${color}">${r.aqi}</span>`
+      : `<span class="nodata">No data</span>`;
+    const backup = r.usedBackup ? `<span class="backup-tag" title="Nearest station had no data; using backup station ${r.sourceZip}">backup</span>` : "";
+    return `<tr>
+      <td>${r.division}</td>
+      <td>${r.city}${backup}</td>
+      <td>${r.state}</td>
+      <td>${aqiCell}</td>
+      <td class="cat">${r.category || "—"}</td>
+      <td>${r.parameter || "—"}</td>
+      <td>${r.reportingArea || "—"}</td>
+      <td class="updated-cell">${observedString(r)}</td>
+    </tr>`;
+  }).join("");
+
+  document.querySelectorAll("thead th").forEach(th => {
+    const arrow = th.querySelector(".arrow");
+    arrow.textContent = (th.dataset.key === sortKey) ? (sortDir === 1 ? "▲" : "▼") : "";
+  });
+}
+
+function updateMeta(payload) {
+  const d = new Date(payload.updated);
+  const rel = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+  document.getElementById("meta").innerHTML =
+    `Cache updated <strong>${rel}</strong><br>${payload.reporting}/${payload.totalLocations} stations reporting`;
+}
+
+function attachEvents() {
+  document.getElementById("search").addEventListener("input", render);
+  document.getElementById("stateFilter").addEventListener("change", render);
+  document.getElementById("divisionFilter").addEventListener("change", render);
+  document.querySelectorAll("thead th").forEach(th => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.key;
+      if (key === sortKey) sortDir *= -1;
+      else { sortKey = key; sortDir = (key === "aqi") ? -1 : 1; }
+      render();
+    });
+  });
+}
+
+async function load() {
+  try {
+    const res = await fetch(CACHE_URL + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const payload = await res.json();
+    DATA = payload.locations || [];
+    populateFilters();
+    updateMeta(payload);
+    render();
+  } catch (err) {
+    const b = document.getElementById("errorBanner");
+    b.style.display = "block";
+    b.textContent = "Could not load cached AQI data (" + err.message +
+      "). The hourly updater may not have run yet.";
+    document.getElementById("meta").textContent = "No data";
+  }
+}
+
+attachEvents();
+load();
+</script>
+</body>
+</html>
