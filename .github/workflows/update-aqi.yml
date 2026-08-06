@@ -1,0 +1,44 @@
+name: Update AQI cache
+
+# Runs once per hour to refresh the cached AirNow data, plus a manual trigger.
+on:
+  schedule:
+    - cron: "5 * * * *" # every hour at :05 (UTC)
+  workflow_dispatch: {}
+
+# Allow the action to commit the refreshed cache file back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-aqi
+  cancel-in-progress: false
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch live AQI and write cache
+        env:
+          AIRNOW_API_KEY: ${{ secrets.AIRNOW_API_KEY }}
+        run: node scripts/update-aqi.js
+
+      - name: Commit updated cache
+        run: |
+          git config user.name "aqi-bot"
+          git config user.email "aqi-bot@users.noreply.github.com"
+          git add data/aqi-cache.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: hourly AQI cache refresh [skip ci]"
+            git push
+          fi
